@@ -7,7 +7,7 @@ file location as input, parses and processes the file
 and logs results in console/log file.
 
 ## Pre-requisite
-- Java 8 or above
+- Java 17 or above
 - Maven
 - Java IDE (preferably Intellij), but eclipse or any other will also work
 
@@ -23,9 +23,7 @@ If we don't supply any argument then default value will be used.
 ## Running tests
 From Intellij right click on project and click on "Run All Tests"
 
-Alternately, the program can also be build and run from command line via
-maven commands like:
-
+Alternately, the program can also be build and run from command line via maven commands like:
 mvn clean compile, mvn clean test
 
 ## Code coverage
