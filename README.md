@@ -40,7 +40,7 @@ The application simply parses the supplied file (in argument), validates
 each record and logs it.
 It also logs few stats such as number of invalid records and total number of records
 
-Further enhancement can be done to store these records in DB.
+Further enhancement in V2 version can be done to store these records in DB.
 
 
 
