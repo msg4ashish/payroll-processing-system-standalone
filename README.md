@@ -26,8 +26,7 @@ From Intellij right click on project and click on "Run All Tests"
 Alternately, the program can also be build and run from command line via
 maven commands like:
 
-mvn clean compile
-mvn clean test
+mvn clean compile, mvn clean test
 
 ## Code coverage
 Code coverage report can be viewed after running tests.
