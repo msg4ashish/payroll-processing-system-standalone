@@ -4,7 +4,21 @@
 
 Standalone java app to process payroll file. Takes
 file location as input, parses and processes the file
-and logs results in console/log file.
+and logs results in console/log file. Also generates below csv reports at path configured in ApplicationConstants file
+
+1. Total number of employees in an organization.
+2. Month wise following details
+a. Total number of employees joined the organization with employee details like emp id,
+designation, name, surname.
+b. Total number of employees exit organization with employee details like name, surname.
+3. Monthly salary report in following format
+a. Month, Total Salary, Total employees
+4. Employee wise financial report in the following format
+a. Employee Id, Name, Surname, Total amount paid
+5. Monthly amount released in following format
+a. Month, Total Amount (Salary + Bonus + REIMBURSEMENT), Total employees
+6. Yearly financial report in the following format
+a. Event, Emp Id, Event Date, Event value
 
 ## Pre-requisite
 - Java 17 or above
