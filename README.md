@@ -40,6 +40,12 @@ From Intellij right click on project and click on "Run All Tests"
 Alternately, the program can also be build and run from command line via maven commands like:
 mvn clean compile, mvn clean test
 
+## Output
+Application generates required 9 reports (csv file) at the path configured in ApplicationConstants file.
+public static final String OUTPUT_REPORTS_LOCATION = "C:\\TempData\\";
+
+Please change this value if we want to generate report at any other location.
+
 ## Code coverage
 Code coverage report can be viewed after running tests.
 Code coverage plugin comes pre-installed with Intellij, so
