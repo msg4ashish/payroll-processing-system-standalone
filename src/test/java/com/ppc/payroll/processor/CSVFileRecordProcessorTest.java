@@ -1,6 +1,8 @@
 package com.ppc.payroll.processor;
 
 import com.opencsv.exceptions.CsvException;
+import com.ppc.payroll.ApplicationConstants;
+import com.ppc.payroll.ApplicationTestConstants;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
@@ -12,15 +14,15 @@ import java.io.IOException;
 public class CSVFileRecordProcessorTest {
 
     private static final Logger logger = LogManager.getLogger(CSVFileRecordProcessorTest.class);
-    private String filePath = "C:\\Personal\\Projects\\PPCFile.csv";
+    private String filePath = ApplicationTestConstants.TEST_FILE;
 
     @Test
     public void testReadCSVFile() {
         CSVFileRecordProcessor csvFileRecordProcessor = new CSVFileRecordProcessor();
         try {
             csvFileRecordProcessor.processCSVFile(filePath);
-            assertEquals(5, csvFileRecordProcessor.getTotalRecordsCount().intValue());
-            assertEquals(1, csvFileRecordProcessor.getInvalidRecords().size());
+            assertEquals(12, csvFileRecordProcessor.getTotalRecordsCount().intValue());
+            assertEquals(0, csvFileRecordProcessor.getInvalidRecords().size());
 
         } catch (IOException e) {
             logger.error(e);

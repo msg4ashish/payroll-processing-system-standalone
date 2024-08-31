@@ -41,8 +41,8 @@ public class PayrollFileProcessorApp {
 
             //print info
             logger.info("Total number of records: {}", fileRecordProcessor.getTotalRecordsCount());
-            logger.info("Number of valid records: {}", (fileRecordProcessor.getTotalRecordsCount() - invalidRecords.size()));
-            logger.info("Number of invalid records: {}", invalidRecords.size());
+            //logger.info("Number of valid records: {}", (fileRecordProcessor.getTotalRecordsCount() - invalidRecords.size()));
+            //logger.info("Number of invalid records: {}", invalidRecords.size());
         } catch (IOException e) {
             logger.error("IO Exception occurred while processing file at {}", payrollFile, e);
             throw new RuntimeException(e);

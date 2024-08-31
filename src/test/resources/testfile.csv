@@ -2,4 +2,11 @@
 2, emp101, SALARY, 4000, 10-10-2022,"Salary of OCT 2020 month"
 3, emp101, BONUS, 1000, 10-10-2022, "Performance bonus of year 2022"
 4, emp101, EXIT, 1-11-2022, 10-10-2022, "Leaving for further study"
-5,
+5, emp102, Billy, Jones, SE, ONBOARD, 1-11-2022, 10-11-2022, "Billy Jones is going to join soon"
+6, emp103, John, Doe, SE, ONBOARD, 1-11-2022, 10-11-2022, "John Doe is going to join soon"
+7, emp102, BONUS, 1000, 10-10-2022, "Performance bonus of year 2022"
+8, emp103, SALARY, 2000, 10-11-2022,"Salary of NOV 2022 month"
+9, emp101, SALARY, 	3500, 10-11-2022,"Salary of NOV 2022 month"
+10, emp102, REIMBURSEMENT, 4500, 10-11-2022,"Reimbursement for Nov"
+11, emp104, Christiano, Ronaldo, SSE, ONBOARD, 1-10-2022, 10-10-2022, "Ronaldo is going to join soon"
+12, emp103, SALARY, 4000, 10-08-2023,"Salary of Aug 2023 month"
