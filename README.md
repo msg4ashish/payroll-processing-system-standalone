@@ -7,7 +7,7 @@ file location as input, parses and processes the file
 and logs results in console/log file.
 
 ## Pre-requisite
-- Java 8 or above
+- Java 17 or above
 - Maven
 - Java IDE (preferably Intellij), but eclipse or any other will also work
 
@@ -23,11 +23,8 @@ If we don't supply any argument then default value will be used.
 ## Running tests
 From Intellij right click on project and click on "Run All Tests"
 
-Alternately, the program can also be build and run from command line via
-maven commands like:
-
-mvn clean compile
-mvn clean test
+Alternately, the program can also be build and run from command line via maven commands like:
+mvn clean compile, mvn clean test
 
 ## Code coverage
 Code coverage report can be viewed after running tests.
@@ -41,7 +38,7 @@ The application simply parses the supplied file (in argument), validates
 each record and logs it.
 It also logs few stats such as number of invalid records and total number of records
 
-Further enhancement can be done to store these records in DB.
+Further enhancement in V2 version can be done to store these records in DB.
 
 
 
